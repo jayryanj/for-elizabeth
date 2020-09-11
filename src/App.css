@@ -1,38 +1,193 @@
+@font-face {
+  font-family: Montserrat-regular;
+  src: url('./resources//font/Montserrat-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sacramento;
+  src: url('./resources/font/Sacramento-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: DancingScript;
+  src: url('./resources/font/DancingScript-VariableFont_wght.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: PonyonScript;
+  src: url('./resources/font/PinyonScript-Regular.ttf');
+  font-weight: normal;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Menu styles */
+.menu, .menu-item, .menu-header {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  color: white !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu-header {
+  margin-left: 5% !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu-header p {
+  font-family: Sacramento, sans-serif !important;
+  font-size: 70px;
+  /*color: #ffffa6;*/
+  color: #a88b70 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-item {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  font-size: 18px;
+  font-family: Montserrat-regular !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-items-group {
+  margin-right: 10em !important;
+}
+
+
+/* Landing styles */
+.landing-main {
+  border-radius: 0 !important;
+}
+
+/* for box
+.landing-main-header-container {
+  border: 5px double #a88b70;
+  border-radius: 10px !important;
+  margin-top: 2%;
+  margin-bottom: 4% !important;
+  box-shadow: 0 0 10px 2px rgb(187, 187, 187);
+}*/
+
+.landing-main-header, .landing-main-mom {
+  margin-top: 2% !important;
+  font-size: 65px !important;
+  /*font-family: Montserrat-regular !important;*/
+  font-family: PonyonScript !important;
+}
+
+.landing-main-mom {
+  display: inline;
+  /*color: #fffa6e !important;*/
+  color: #a88b70 !important;
+  font-size: 65px !important;
+}
+
+.landing-main-description {
+  font-size: 20px !important;
+  margin: 2% 10% !important;
+}
+
+.landing-main-pictures {
+  margin-top: 4% !important;
+  margin-bottom: 3% !important;
+}
+
+
+/* Portait styles */
+.portrait {
+  background-color: transparent !important;
+  min-height: 38em !important;
+  color: white !important;
+  margin-top: 1em !important;
+}
+
+.portrait-picture {
+  border: 3px solid white !important;
+}
+
+.portrait-name, .portrait-date {
+  color: white !important;
+  font-family: Montserrat-regular, sans-serif !important;
+}
+
+.portrait-name {
+  font-size: 40px !important;
+}
+
+.portrait-date {
+  margin-top: 1% !important;
+}
+
+.portrait-header {
+  font-family: DancingScript, sans-serif !important;
+  font-size: 30px !important;
+  margin-bottom: 2% !important;
+}
+
+
+/* Gallery styles */
+.gallery-picture {
+  margin-bottom: 2em !important;
+  border-radius: 8px !important;
+  /*box-shadow: 0 0 10px 2px gray !important*/
+}
+
+.gallery-header {
+  margin-top: 5% !important;
+  font-size: 60px !important;
+  font-family: Montserrat-regular !important;
+}
+
+.gallery-description {
+  font-family: Montserrat-regular !important;
+  color: gray !important;
+  font-size: 25px !important;
+  margin-bottom: 10% !important;
+}
+
+.gallery-grid {
+  margin-top: 3% !important;
+}
+
+{/* About styles */}
+.about-segment-1-header-h1 {
+  margin-top: 2% !important;
+  font-family: Montserrat-regular !important;
+  font-size: 50px !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.about-segment-1, .about-segment-2, .about-segment-3, .about-segment-4 {
+  margin-top: 0% !important;
+  margin-bottom: 0% !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.about-segment-2, .about-segment-4 {
+  background-color: #a88b70 !important;
+}
+
+.about-segment-3-notes-container {
+margin-top: 4% !important;
+}
+
+.about-segment-1-header-h3 {
+  font-family: PonyonScript !important;
+  font-size: 25px !important;
+  color: #ad937a !important;
+}
+
+.about-segment-1-header-h4 {
+  font-family: Montserrat-regular !important;
+  font-size: 25px !important;
+}
+
+.about-segment-1-grid {
+  margin-top: 2% !important;
 }
