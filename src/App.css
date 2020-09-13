@@ -153,7 +153,7 @@
   margin-top: 3% !important;
 }
 
-{/* About styles */}
+/* About styles */
 .about-segment-1-header-h1 {
   margin-top: 2% !important;
   font-family: Montserrat-regular !important;
@@ -170,7 +170,8 @@
 }
 
 .about-segment-2, .about-segment-4 {
-  background-color: #a88b70 !important;
+  background-color: #e4d9cf !important;
+  min-height: fit-content !important;
 }
 
 .about-segment-3-notes-container {
@@ -190,4 +191,29 @@ margin-top: 4% !important;
 
 .about-segment-1-grid {
   margin-top: 2% !important;
+}
+
+.about-segment-2-picture {
+  border: 15px white double;
+}
+
+.about-segment-2-grid {
+  margin-top: 4% !important;
+  margin-bottom: 4% !important;
+}
+
+.about-segment-2-segment {
+  margin-left: 4% !important;
+  margin-right: 4% !important;
+}
+
+.about-segment-2-header-1 {
+  font-family: PonyonScript !important;
+  font-size: 40px !important;
+  margin: 0px !important;
+}
+
+.about-segment-2-container-1 {
+  border: 15px #e4d9cf double;
+  padding: 20px 40px 40px 40px !important;
 }

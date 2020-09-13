@@ -1,6 +1,6 @@
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Header, Segment, Divider, Grid } from 'semantic-ui-react';
+import { Container, Header, Segment, Divider, Grid, Image, GridColumn } from 'semantic-ui-react';
 import Portrait from '../components/Portrait';
 import FamilyNotes from '../components/FamilyNotes';
 
@@ -44,13 +44,40 @@ class About extends React.Component {
                     </Container>
                 </Segment>
 
-                <Segment className="about-segment-2" style={{ minHeight: 600, padding: '1em 0em' }}>
 
+                <Segment className="about-segment-2" style={{ padding: '1em 0em' }}>
+                    <Grid columns={2} stackable className='about-segment-2-grid'>
+                        <Grid.Row>
+                            <Grid.Column>
+                                <Image 
+                                    src={require('../resources/img/portrait.png')} 
+                                    size='large'
+                                    centered
+                                    className='about-segment-2-picture'
+                                />
+                            </Grid.Column>
+
+                            <Grid.Column>
+                                <Segment className='about-segment-2-segment'>
+                                    <Container className='about-segment-2-container-1'>
+                                        <p className='about-segment-2-header-1'>
+                                            Eiusmod eiusmod
+                                        </p>
+                                        <p>
+                                        Tempor ea magna sunt ut velit ipsum minim magna. Qui incididunt do ullamco et ipsum labore mollit id ullamco anim sit irure dolor. Occaecat eu duis dolor fugiat ullamco duis aliqua quis sit nisi dolore ullamco elit. Reprehenderit nisi ut sunt in veniam in veniam veniam dolor pariatur. Velit ad tempor irure aliquip sint commodo sint labore commodo sint in. Cillum excepteur ullamco culpa mollit aliquip irure. Sint occaecat irure dolor occaecat commodo ipsum mollit consequat voluptate laborum exercitation est. Culpa mollit eiusmod ut eiusmod consequat proident qui eiusmod duis aliquip consequat sit reprehenderit. Magna laboris non esse magna eiusmod ipsum ex et esse veniam amet excepteur voluptate voluptate. Non commodo duis laborum sint anim ea irure laborum id elit in deserunt labore dolore.
+                                        </p>
+                                    </Container>
+                                </Segment>
+                            </Grid.Column>
+                        </Grid.Row>
+                    </Grid>
                 </Segment>
+
 
                 <Segment className="about-segment-3" style={{ minHeight: 600, padding: '1em 0em' }}>
 
                 </Segment>
+
 
                 <Segment className="about-segment-4" style={{ minHeight: 600, padding: '1em 0em' }}>
                         <Container>
