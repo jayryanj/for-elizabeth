@@ -1,6 +1,6 @@
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css';
-import { Container, Header, Segment, Divider, Grid, Image, GridColumn } from 'semantic-ui-react';
+import { Container, Header, Segment, Divider, Grid, Image } from 'semantic-ui-react';
 import Portrait from '../components/Portrait';
 import FamilyNotes from '../components/FamilyNotes';
 
@@ -81,7 +81,12 @@ class About extends React.Component {
 
                 <Segment className="about-segment-4" style={{ minHeight: 600, padding: '1em 0em' }}>
                         <Container>
-                            <Header as='h3' textAlign='center'>Notes from Loved-Ones</Header>
+                            <p className='about-segment-4-header' textAlign='center'>
+                                Notes from Loved-Ones
+                            </p>
+                            <p className='about-segment-4-description'>
+                                These are some notes written about Elizabeth from her loved-ones. 
+                            </p>
                         </Container>
 
                         <FamilyNotes />

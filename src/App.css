@@ -167,6 +167,8 @@
   margin-bottom: 0% !important;
   border-radius: 0 !important;
   border: none !important;
+  min-height: fit-content !important;
+  padding-bottom: 4% !important;
 }
 
 .about-segment-2, .about-segment-4 {
@@ -216,4 +218,22 @@ margin-top: 4% !important;
 .about-segment-2-container-1 {
   border: 15px #e4d9cf double;
   padding: 20px 40px 40px 40px !important;
+}
+
+/* Segment 4 */
+.about-segment-4-header {
+  font-family: PonyonScript !important;
+  font-size: 50px !important;
+  margin: 0px !important;
+}
+
+.about-segment-4-description {
+  font-family: Montserrat-regular !important;
+}
+
+.family-note {
+  text-align: left;
+  padding: 10px !important;
+  border-radius: 10px !important;
+
 }

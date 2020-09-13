@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment, Header, Image, Visibility, Container } from 'semantic-ui-react';
+import { Segment, Image, Visibility, Container } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import '../App.css';
 import Portrait from '../components/Portrait';
