@@ -191,37 +191,3 @@ class Gallery extends React.Component {
 }
 
 export default Gallery;
-
-/**
-             <Segment
-            className="landing-main"
-            style={{ minHeight: 400, padding: '1em 0em' }}
-            >
-                <Container>
-                    <Card.Group itemsPerRow={4}>
-                        <Card raised image={require('../resources/img/2020-08-27_155758 (square).jpg')} />
-                        <Card raised image={require('../resources/img/2020-08-28_113813 (square).jpg')} />
-                        <Card raised image={require('../resources/img/2020-08-27_155758 (square).jpg')} />
-                        <Card raised image={require('../resources/img/2020-08-28_113813 (square).jpg')} />                <Card raised image={require('../resources/img/2020-08-27_155758 (square).jpg')} />
-                        <Card raised image={require('../resources/img/2020-08-28_113813 (square).jpg')} />                <Card raised image={require('../resources/img/2020-08-27_155758 (square).jpg')} />
-                        <Card raised image={require('../resources/img/2020-08-28_113813 (square).jpg')} />                <Card raised image={require('../resources/img/2020-08-27_155758 (square).jpg')} />
-                        <Card raised image={require('../resources/img/2020-08-28_113813 (square).jpg')} />
-                    </Card.Group>
-                </Container>
-
-        </Segment>
-
-
-
-                                <GridColumn>
-                            <Image className='gallery-picture'  src={require('../resources/img/2020-08-27_155758 (square).jpg')} />
-                            <Image className='gallery-picture' src={require('../resources/img/gallery/2020-08-27_153901.jpg')} />
-                            <Image className='gallery-picture' src={require('../resources/img/gallery/2020-08-27_154231.jpg')} />
-                        </GridColumn>
-                        <GridColumn>
-                            <Image className='gallery-picture' src={require('../resources/img/2020-08-27_155758 (square).jpg')} />
-                            <Image className='gallery-picture' src={require('../resources/img/gallery/2020-08-27_153901.jpg')} />
-                            <Image className='gallery-picture' src={require('../resources/img/gallery/2020-08-27_154231.jpg')} />
-                        </GridColumn>
-
- */
