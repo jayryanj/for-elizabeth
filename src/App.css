@@ -61,6 +61,7 @@
 /* Landing styles */
 .landing-main {
   border-radius: 0 !important;
+  min-height: fit-content;
 }
 
 /* for box
@@ -89,6 +90,7 @@
 .landing-main-description {
   font-size: 20px !important;
   margin: 2% 10% !important;
+  font-family: Montserrat-regular !important;
 }
 
 .landing-main-pictures {

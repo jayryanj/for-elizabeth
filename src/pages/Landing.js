@@ -16,7 +16,7 @@ class Landing extends React.Component {
                 <Portrait />
                 <Segment
                     className="landing-main"
-                    style={{ minHeight: 400, padding: '1em 0em' }}
+                    style={{ padding: '1em 0em' }}
                 >
                     <Container className='landing-main-header-container'>
                         <p className="landing-main-header">
@@ -24,7 +24,20 @@ class Landing extends React.Component {
                         </p>
                     </Container>
 
-                    <p className="landing-main-description">"She was a caring, loving, and kindhearted mom that loved her family. She loved talking to her siblings and seeing her kids around the house. She enjoyed even the smallest bits of her life while still looking forward to the future. [Needs to be expanded]" </p>
+                    <Container className="landing-main-description">
+                        <p >
+                            Please join us in honoring the memory of Elizabeth Domingsil Jamorabon. 
+                        </p>
+
+                        <p>
+                            It broke all of our hearts when the news broke out of Elizabeth's passing on August 22, 2020. She was a caring mom, wife, and daughter that loved her family more than anything in the world. She was a kindhearted spirit that left her mark on all of her loved-ones.
+                        </p>
+                        <p>
+                            She will be greatly missed.
+                        </p>
+                    </Container>
+
+                
                     <Visibility
                         onOnScreen={this.handleOnScreen}
                     >
@@ -44,3 +57,10 @@ class Landing extends React.Component {
 }
 
 export default Landing;
+
+/*
+ 
+                        <p>
+                            Elizabeth was a caring, loving, and kindhearted mom, wife, and daughter that loved her family more than anything in the world. She enjoyed even the simplest bits of her life such as the music that she loved and the snacks that she always craved. However, nothing compares to the love that she had for her family. She loved talking to her siblings and seeing her kids around the house. She'd rarely miss a chance to see her family. Although we may be apart, we know her love 
+                        </p>
+ */

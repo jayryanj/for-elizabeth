@@ -17,7 +17,7 @@ class Portrait extends React.Component {
                     className='portrait-header'
                     color='grey'
                 />
-                <Image src={require('../resources/img/portrait.png')}
+                <Image src={require('../resources/img/portrait.jpg')}
                     circular
                     size='medium'
                     centered
