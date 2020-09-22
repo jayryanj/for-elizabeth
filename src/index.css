@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: gray !important;
 
-  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('./resources/img/20200829-2020-08-29_194724.jpg') no-repeat center center fixed !important; 
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('./resources/img/Family_Portrait_Final.png') no-repeat center center fixed !important; 
   background-size: cover !important;
   overflow-x: hidden;
 }

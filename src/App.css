@@ -178,7 +178,7 @@
   min-height: fit-content !important;
 }
 
-.about-segment-3-notes-container {
+.about-segment-3-notes-container { /* Needs to be changed!! */
 margin-top: 4% !important;
 }
 
@@ -197,6 +197,7 @@ margin-top: 4% !important;
   margin-top: 2% !important;
 }
 
+/* Segment 2 styles*/
 .about-segment-2-picture {
   border: 15px white double;
 }
@@ -209,6 +210,7 @@ margin-top: 4% !important;
 .about-segment-2-segment {
   margin-left: 4% !important;
   margin-right: 4% !important;
+  
 }
 
 .about-segment-2-header-1 {
@@ -219,7 +221,28 @@ margin-top: 4% !important;
 
 .about-segment-2-container-1 {
   border: 15px #e4d9cf double;
-  padding: 20px 40px 40px 40px !important;
+  /*padding: 20px 40px 40px 40px !important;*/
+  padding: 8% !important;
+}
+
+.about-segment-2-p {
+  font-size: 20px !important;
+  margin-top: 2%;
+}
+
+/* Segment 3*/
+.about-segment-3-main-container{
+  margin-top: 50px !important;
+  margin-bottom: 30px !important;
+}
+
+.about-segment-3-header {
+  font-family: Montserrat-regular !important;
+  font-size: 40px !important;
+}
+
+.about-segment-3-grid-row-2 {
+  margin-top: 3% !important;
 }
 
 /* Segment 4 */

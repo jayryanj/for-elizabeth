@@ -50,8 +50,8 @@ class About extends React.Component {
                         <Grid.Row>
                             <Grid.Column>
                                 <Image 
-                                    src={require('../resources/img/portrait.png')} 
-                                    size='large'
+                                    src={require('../resources/img/IMG_60111(square).jpg')} 
+                                    size='huge'
                                     centered
                                     className='about-segment-2-picture'
                                 />
@@ -63,7 +63,7 @@ class About extends React.Component {
                                         <p className='about-segment-2-header-1'>
                                             Laborum aute 
                                         </p>
-                                        <p>
+                                        <p className='about-segment-2-p'>
                                         Tempor ea magna sunt ut velit ipsum minim magna. Qui incididunt do ullamco et ipsum labore mollit id ullamco anim sit irure dolor. Occaecat eu duis dolor fugiat ullamco duis aliqua quis sit nisi dolore ullamco elit. Reprehenderit nisi ut sunt in veniam in veniam veniam dolor pariatur. Velit ad tempor irure aliquip sint commodo sint labore commodo sint in. Cillum excepteur ullamco culpa mollit aliquip irure. Sint occaecat irure dolor occaecat commodo ipsum mollit consequat voluptate laborum exercitation est. Culpa mollit eiusmod ut eiusmod consequat proident qui eiusmod duis aliquip consequat sit reprehenderit. Magna laboris non esse magna eiusmod ipsum ex et esse veniam amet excepteur voluptate voluptate. Non commodo duis laborum sint anim ea irure laborum id elit in deserunt labore dolore.
                                         </p>
                                     </Container>
@@ -74,8 +74,69 @@ class About extends React.Component {
                 </Segment>
 
 
-                <Segment className="about-segment-3" style={{ minHeight: 600, padding: '1em 0em' }}>
+                <Segment className="about-segment-3" style={{ padding: '1em 0em' }}>
+                    <Container className='about-segment-3-main-container'>
+                        <Grid container className='about-segment-3-grid'>
+                            <Grid.Row columns={2}>
 
+                                <Grid.Column>
+                                    <Header as='h4' textAlign='left' className='about-segment-3-header'>
+                                        Time With Family
+                                    </Header>
+                                </Grid.Column>
+
+                                <Grid.Column textAlign='left'>
+                                    <p>
+                                        Qui incididunt do ullamco et ipsum labore mollit id ullamco anim. Magna laboris non esse magna eiusmod ipsum ex et esse veniam amet excepteur voluptate voluptate. Non commodo duis laborum sint anim ea irure laborum id elit in deserunt labore dolore.
+                                    </p>
+                                </Grid.Column>
+                            </Grid.Row>
+
+                            <Grid.Row columns={3} className='about-segment-3-grid-row-2'>
+
+                                <Grid.Column className='about-segment-3-grid-column'>
+                                    <Image 
+                                        src={require('../resources/img/2020-08-27_155758 (square).jpg')} 
+                                        fluid
+                                        centered
+                                    />
+                                </Grid.Column>
+
+                                <Grid.Column className='about-segment-3-grid-column'>
+                                    <Image 
+                                        src={require('../resources/img/2020-08-28_113813 (square).jpg')} 
+                                        fluid
+                                        centered
+                                    />
+                                </Grid.Column>
+
+                                <Grid.Column className='about-segment-3-grid-column'>
+                                    <Image 
+                                        src={require('../resources/img/20190815-20190815_111721 (square).jpg')} 
+                                        fluid
+                                        centered
+                                    />
+                                </Grid.Column>
+
+                            </Grid.Row>
+                            <Grid.Row columns={3}>
+
+                                <Grid.Column className='about-segment-3-grid-column'>
+                                    <p>mollit consequat voluptate laborum exercitation est. Velit ad tempor irure aliquip sint commodo sint labore</p>
+                                </Grid.Column>
+
+                                <Grid.Column className='about-segment-3-grid-column'>
+                                    <p>mollit consequat voluptate laborum exercitation est. Non commodo duis laborum sint anim ea irure laborum id elit in deserunt labore dolore.</p>
+                                </Grid.Column>
+
+                                <Grid.Column className='about-segment-3-grid-column'>
+                                    <p>mollit consequat voluptate laborum exercitation est.</p>
+                                </Grid.Column>
+
+                            </Grid.Row>
+                        </Grid>
+                    </Container>
+                    
                 </Segment>
 
 

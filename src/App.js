@@ -28,19 +28,3 @@ class App extends React.Component{
 }
 
 export default App;
-
-/**
-             <Container>
-            <Menu.Menu position="right">
-              <Menu.Item className="menu-item">
-                <Link className="link" to="/">Home</Link>
-              </Menu.Item>
-              <Menu.Item className="menu-item">
-                <Link className="link" to="/gallery">Gallery</Link>
-              </Menu.Item>
-              <Menu.Item className="menu-item">
-                <Link className="link" to="/about">About</Link>
-              </Menu.Item>
-            </Menu.Menu>
-            </Container>
- */
