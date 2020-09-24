@@ -10,7 +10,14 @@ class About extends React.Component {
             <div>
                 <Portrait />
 
-                <Segment className="about-segment-1" style={{ minHeight: 600, padding: '1em 0em' }}>
+                <Segment className="about-segment-1" style={{ padding: '1em 0em' }}>
+                    {/* DELETE THIS AFTER REMOVING PLACEHOLDER TEXT */}
+                    <Container>
+                        <Segment size='large' raised color='red'>
+                            This page contains placeholder text (in Latin) for visual testing. It will be replaced when the text is available.
+                        </Segment>
+                    </Container>
+
                     <Container>
                         <Divider horizontal>
                             <Header as='h2'className='about-segment-1-header-h1' textAlign='center'>About Her</Header>
