@@ -20,7 +20,7 @@ class FuneralInfo extends React.Component {
                             Please join us in honoring the memory of Elizabeth Domingsil Jamorabon on Saturday, October 3rd @ 9:30am
                         </p>
                         <p>
-                            Due to the COVID-19 pandemic restrictions, the funeral service will only include 10 family members. However, the funeral will be streamed at the link below
+                            Due to the COVID-19 pandemic restrictions, the funeral service will only include 10 family members. However, the funeral will be streamed at the button below.
                         </p>
 
                         <Divider className='funeral-info-divider' />
@@ -29,11 +29,11 @@ class FuneralInfo extends React.Component {
                                 Memorial ID: 37174
                             </p>
                             <p>
-                                Password: 54Z8K
+                                Password: [Hidden until service] {/* 54Z8K */}
                             </p>
                             <a rel="noopener noreferrer" target='_blank' href='http://webcast.funeralvue.com/events/login/37174'>
                                 <Button>
-                                    Livestream Link
+                                    Open  Livestream
                                 </Button>
                             </a>
                     </Container>
