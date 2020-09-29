@@ -64,6 +64,16 @@ class NavBar extends React.Component {
                   Gallery
                 </Menu.Item>
 
+              </Menu.Menu>
+            </Container>
+        </Menu> 
+      )
+    }
+}
+
+export default NavBar;
+
+/*
                 <Menu.Item
                   className='menu-item'
                 >
@@ -78,63 +88,4 @@ class NavBar extends React.Component {
                     </Dropdown.Menu>
                   </Dropdown>
                 </Menu.Item>
-
-              </Menu.Menu>
-            </Container>
-        </Menu> 
-      )
-    }
-}
-
-export default NavBar;
-
-/*
-        <Menu stackable text size="large" className="menu">
-            <Menu.Item 
-              className="menu-header"
-              as={NavLink}
-              to="/"
-            >
-              <p>Elizabeth</p>
-            </Menu.Item>
-            
-            
-            <Container>
-              <Menu.Menu className="menu-items-group" position="right">
-                <Menu.Item
-                  name='home' 
-                  className="menu-item"
-                  as={NavLink}
-                  to="/"
-                  active={activeItem === 'home'}
-                  onClick={this.handleItemClick}
-                >
-                    Home
-                </Menu.Item>
-
-                <Menu.Item 
-                  name='about'
-                  className="menu-item"
-                  as={NavLink}
-                  to="/about"
-                  active={activeItem === 'about'}
-                  onClick={this.handleItemClick}
-                >
-                  About
-                </Menu.Item>
-
-                <Menu.Item 
-                  name='gallery'
-                  className="menu-item"
-                  as={NavLink}
-                  to="/gallery"
-                  active={activeItem === 'gallery'}
-                  onClick={this.handleItemClick}
-                >
-                  Gallery
-                </Menu.Item>
-
-              </Menu.Menu>
-            </Container>
-        </Menu> 
 */
