@@ -2,7 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import {
     Menu,
-    Container
+    Container,
+    Dropdown
   } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import '../App.css';
@@ -27,6 +28,7 @@ class NavBar extends React.Component {
             
             <Container>
               <Menu.Menu className="menu-items-group" position="right">
+
                 <Menu.Item
                   name='home' 
                   className="menu-item"
@@ -58,6 +60,21 @@ class NavBar extends React.Component {
                   onClick={this.handleItemClick}
                 >
                   Gallery
+                </Menu.Item>
+
+                <Menu.Item
+                  className='menu-item'
+                >
+                  <Dropdown floating text='Pages' className='menu-dropdown'>
+                    <Dropdown.Menu>
+                      <Dropdown.Item>
+                          Memories
+                      </Dropdown.Item>
+                      <Dropdown.Item>
+                        Music
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
                 </Menu.Item>
 
               </Menu.Menu>

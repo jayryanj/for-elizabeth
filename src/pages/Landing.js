@@ -3,6 +3,7 @@ import { Segment, Image, Visibility, Container } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import '../App.css';
 import Portrait from '../components/Portrait';
+import FuneralInfo from '../components/FuneralInfo';
 
 class Landing extends React.Component {
 
@@ -14,10 +15,10 @@ class Landing extends React.Component {
         return (
             <div>
                 <Portrait />
-                <Segment
-                    className="landing-main"
-                    style={{ padding: '1em 0em' }}
-                >
+
+                <Segment className="landing-main" style={{ padding: '1em 0em' }}>
+                    <FuneralInfo />
+
                     <Container className='landing-main-header-container'>
                         <p className="landing-main-header">
                             A Loving <p className="landing-main-mom">Mom</p>
@@ -25,9 +26,6 @@ class Landing extends React.Component {
                     </Container>
 
                     <Container className="landing-main-description">
-                        <p >
-                            Please join us in honoring the memory of Elizabeth Domingsil Jamorabon. 
-                        </p>
 
                         <p>
                             It broke all of our hearts when the news broke out of Elizabeth's passing on August 22, 2020. She was a caring mom, wife, and daughter that loved her family more than anything in the world. She was a kindhearted spirit that left her mark on all of her loved-ones.

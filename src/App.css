@@ -83,6 +83,23 @@
 }
 
 
+/* Funeral Info style */
+.funeral-info-container {
+  font-size: 18px;
+  margin: 2% 10% !important;
+}
+
+.funeral-info-meeting-id {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.funeral-info-divider {
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
+
+
 /* Portait styles */
 .portrait {
   background-color: transparent !important;
