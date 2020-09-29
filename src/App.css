@@ -141,7 +141,7 @@
 }
 
 .gallery-header {
-  margin-top: 5% !important;
+  margin-top: 10% !important;
   font-size: 60px !important;
   font-family: Montserrat-regular !important;
 }
@@ -150,12 +150,13 @@
   font-family: Montserrat-regular !important;
   color: gray !important;
   font-size: 25px !important;
-  margin-bottom: 10% !important;
+  margin-bottom: 15% !important;
 }
 
 .gallery-grid {
   margin-top: 3% !important;
 }
+
 
 /* About styles */
 .about-segment-1-header-h1 {
@@ -263,4 +264,19 @@ margin-top: 4% !important;
   padding: 10px !important;
   border-radius: 10px !important;
 
+}
+
+/* Music styles */
+.music-header {
+  margin-top: 8% !important;
+  margin-bottom: 2% !important;
+  font-size: 60px !important;
+  font-family: Montserrat-regular !important;
+}
+
+.music-description {
+  font-family: Montserrat-regular !important;
+  color: gray !important;
+  font-size: 25px !important;
+  margin-bottom: 15% !important;
 }

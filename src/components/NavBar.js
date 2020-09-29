@@ -2,8 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import {
     Menu,
-    Container,
-    Dropdown
+    Container
   } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import '../App.css';
@@ -26,7 +25,6 @@ class NavBar extends React.Component {
             >
               <p>Elizabeth</p>
             </Menu.Item>
-            
             
             <Container>
               <Menu.Menu className="menu-items-group" position="right">
@@ -62,6 +60,18 @@ class NavBar extends React.Component {
                   onClick={this.handleItemClick}
                 >
                   Gallery
+                </Menu.Item>
+
+                {/* Temporary */}
+                <Menu.Item 
+                  name='music'
+                  className="menu-item"
+                  as={NavLink}
+                  exact to="/music"
+                  active={activeItem === 'music'}
+                  onClick={this.handleItemClick}
+                >
+                  Music
                 </Menu.Item>
 
               </Menu.Menu>

@@ -12,7 +12,7 @@ class Gallery extends React.Component {
                 </Header>
                 <Container>
                     <p className='gallery-description'>
-                        Pictures of her along with loved ones.
+                        Here, you can access pictures of Elizabeth and her loved ones.
                     </p>
                 </Container>
                 <Segment className="landing-main" style={{ minHeight: 400, padding: '1em 0em' }}>
