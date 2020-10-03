@@ -26,7 +26,7 @@ class NavBar extends React.Component {
               <p>Elizabeth</p>
             </Menu.Item>
             
-            <Container>
+            <Container className='menu-items-container'>
               <Menu.Menu className="menu-items-group" position="right">
 
                 <Menu.Item

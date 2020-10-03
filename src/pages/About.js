@@ -26,16 +26,16 @@ class About extends React.Component {
 
                     <Container>
                         <Header as='h3' className='about-segment-1-header-h3'>
-                            Sunt nisi veniam cillum eu qui sunt labore velit fugiat voluptate quis adipisicing eiusmod amet.
+                            Here, you can learn about Elizabeth through the perspective of her family and loved ones.
                         </Header>
                         <Grid divided='vertically' className='about-segment-1-grid'>
                             <Grid.Row columns={2}>
                                 <Grid.Column>
                                     <Header as='h4' className='about-segment-1-header-h4'>
-                                        Et incididunt anim 
+                                        Early Life
                                     </Header>
-                                    <p>
-                                        Ea pariatur dolor cupidatat laborum labore consequat elit dolore et. Consequat consequat eu irure Lorem nisi nostrud aute ipsum veniam voluptate culpa est aute aliqua. Adipisicing excepteur deserunt sint velit aliqua cupidatat dolore occaecat sint consectetur proident. Dolore exercitation nisi officia proident veniam elit et proident aute laborum cupidatat consequat. Laboris deserunt non esse velit minim cillum ad culpa et. Id culpa elit labore enim cillum et incididunt quis culpa deserunt aliquip incididunt magna commodo. Est elit aliqua dolore reprehenderit sit et consectetur aliquip do nisi Lorem. Aliqua exercitation Lorem mollit aliquip proident. Cillum ipsum ut ut eiusmod cillum aliquip velit qui non. Deserunt cillum amet amet consequat excepteur proident. Lorem duis amet in ad enim aliquip laborum est nisi aliqua. Voluptate sit cillum reprehenderit et ad commodo consequat nisi. Lorem mollit id magna nulla nostrud. Sit voluptate voluptate labore minim proident. Velit aute ea amet labore excepteur eiusmod quis culpa ex laborum id incididunt. Excepteur dolor mollit mollit tempor duis est Lorem deserunt non nulla mollit ullamco elit. Laboris ut ut tempor laboris sunt voluptate nisi duis pariatur qui amet id. Veniam elit sit nostrud cupidatat id. Ullamco sunt deserunt laborum fugiat occaecat aliqua dolore ad non.
+                                    <p className='about-early-life'>
+                                        Elizabeth was born in the Philippines on April 27, 1965. She grew up in Malampa, Ilocos Norte, Philippines with her parents and sisters.
                                     </p>
                                 </Grid.Column>
                                 <Grid.Column>
@@ -88,7 +88,7 @@ class About extends React.Component {
 
                                 <Grid.Column>
                                     <Header as='h4' textAlign='left' className='about-segment-3-header'>
-                                        Time With Family
+                                        Her Family
                                     </Header>
                                 </Grid.Column>
 
