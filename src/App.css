@@ -28,13 +28,18 @@
 
 
 /* Menu styles */
-.menu-header p{
+.menu {
+  margin-bottom: 2% !important;
+}
+.menu-header{
   font-family: Sacramento, sans-serif !important;
-  font-size: 70px !important;
-  align-self: baseline !important;
+  font-size: 80px !important;
+  text-align: center;
+  color: #a88b70 !important;
+  margin-top: 2% !important;
 }
 
-.menu-item, .menu-header {
+.menu-item {
   height: fit-content;
   margin-top: auto !important;
   margin-bottom: auto !important;
@@ -44,10 +49,6 @@
 .menu-item {
   font-size: 20px !important;
   font-family: Montserrat-regular !important;
-}
-
-.menu-header p {
-  color: #a88b70 !important;
 }
 
 .menu-items-group {

@@ -18,65 +18,62 @@ class NavBar extends React.Component {
       const { activeItem } = this.state
 
       return (
-        <Menu stackable inverted pointing secondary compact size="large" className="menu">
-            <Menu.Item
-              name='home'
-              className="menu-header"
-            >
-              <p>Elizabeth</p>
-            </Menu.Item>
-            
-            <Container className='menu-items-container'>
-              <Menu.Menu className="menu-items-group" position="right">
+        <div>
+          <Container textAlign='center'>
+              <p className="menu-header">Elizabeth</p>
+          </Container>
+          
+          <Menu stackable inverted pointing secondary compact size="large" className="menu">
 
-                <Menu.Item
-                  name='home' 
-                  className="menu-item"
-                  as={NavLink}
-                  exact to="/"
-                  active={activeItem === 'home'}
-                  onClick={this.handleItemClick}
-                >
-                    Home
-                </Menu.Item>
+          <Menu.Item
+            name='home' 
+            className="menu-item"
+            as={NavLink}
+            exact to="/"
+            active={activeItem === 'home'}
+            onClick={this.handleItemClick}
+          >
+              Home
+          </Menu.Item>
 
-                <Menu.Item 
-                  name='about'
-                  className="menu-item"
-                  as={NavLink}
-                  exact to="/about"
-                  active={activeItem === 'about'}
-                  onClick={this.handleItemClick}
-                >
-                  About
-                </Menu.Item>
+          <Menu.Item 
+            name='about'
+            className="menu-item"
+            as={NavLink}
+            exact to="/about"
+            active={activeItem === 'about'}
+            onClick={this.handleItemClick}
+          >
+            About
+          </Menu.Item>
 
-                <Menu.Item 
-                  name='gallery'
-                  className="menu-item"
-                  as={NavLink}
-                  exact to="/gallery"
-                  active={activeItem === 'gallery'}
-                  onClick={this.handleItemClick}
-                >
-                  Gallery
-                </Menu.Item>
+          <Menu.Item 
+            name='gallery'
+            className="menu-item"
+            as={NavLink}
+            exact to="/gallery"
+            active={activeItem === 'gallery'}
+            onClick={this.handleItemClick}
+          >
+            Gallery
+          </Menu.Item>
 
-                {/* Temporary */}
-                <Menu.Item 
-                  name='music'
-                  className="menu-item"
-                  as={NavLink}
-                  exact to="/music"
-                  active={activeItem === 'music'}
-                  onClick={this.handleItemClick}
-                >
-                  Music
-                </Menu.Item>
+          {/* Temporary */}
+          <Menu.Item 
+            name='music'
+            className="menu-item"
+            as={NavLink}
+            exact to="/music"
+            active={activeItem === 'music'}
+            onClick={this.handleItemClick}
+          >
+            Music
+          </Menu.Item>
 
-              </Menu.Menu>
-            </Container>
-        </Menu> 
+
+          </Menu> 
+        </div>
+ 
       )
     }
 }

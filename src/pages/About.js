@@ -35,7 +35,7 @@ class About extends React.Component {
                                         Early Life
                                     </Header>
                                     <p className='about-early-life'>
-                                        Elizabeth was born in the Philippines on April 27, 1965. She grew up in Malampa, Ilocos Norte, Philippines with her parents and sisters.
+                                        Elizabeth was born in the Philippines on April 27, 1965....
                                     </p>
                                 </Grid.Column>
                                 <Grid.Column>
