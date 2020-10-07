@@ -12,7 +12,7 @@ class FuneralInfo extends React.Component {
     render() {
         return(
             <Container>
-                <Message info className='funeral-info-message' floating>
+                <Message className='funeral-info-message' floating>
 
                     <Message.Header>Funeral Video Information</Message.Header>
                     <Container className='funeral-info-container'>
@@ -20,7 +20,7 @@ class FuneralInfo extends React.Component {
                             On October 3rd, 2020, Elizabeth's beloved family came together at her funeral service to lay her to rest.
                         </p>
                         <p>
-                            The livestreamed video of the service can be accessed using the button below.
+                            The livestreamed video of the service can be accessed using the button below for 90 days.
                         </p>
 
                         <Divider className='funeral-info-divider' />
@@ -32,7 +32,7 @@ class FuneralInfo extends React.Component {
                                 Password: 54Z8K 
                             </p>
                             <a rel="noopener noreferrer" target='_blank' href='http://webcast.funeralvue.com/events/login/37174'>
-                                <Button>
+                                <Button secondary>
                                     Open  Livestream
                                 </Button>
                             </a>

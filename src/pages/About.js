@@ -46,7 +46,7 @@ class About extends React.Component {
 
 
                 <Segment className="about-segment-2" style={{ padding: '1em 0em' }}>
-                    <Grid columns={3} stackable className='about-segment-2-grid'>
+                    <Grid columns={2} stackable className='about-segment-2-grid'>
                         <Grid.Row>
                             <Grid.Column>
                                 <Image 
@@ -76,22 +76,6 @@ class About extends React.Component {
                                 </Segment>
                             </Grid.Column>
 
-                            <Grid.Column>
-                                <Image 
-                                    src={require('../resources/img/Les110a (square).jpg')} 
-                                    size='large'
-                                    centered
-                                    className='about-segment-2-picture'
-                                />
-
-                                <Image 
-                                    src={require('../resources/img/DSC_0246 (square).JPG')} 
-                                    size='large'
-                                    centered
-                                    className='about-segment-2-picture'
-                                />
-                            </Grid.Column>
-
                         </Grid.Row>
                     </Grid>
                 </Segment>
@@ -110,7 +94,7 @@ class About extends React.Component {
 
                                 <Grid.Column textAlign='left'>
                                     <p className='about-segment-3-header-description'>
-                                        Les loved her family so much. She was the happiest at Christmas parties, Thanksgiving dinners, and birthday gatherings where she can spend time with everyone.
+                                        Les loved her family so much. les was always there to be with her family. She would rarely miss an opportunity to spend her time around her loved ones. 
                                     </p>
                                 </Grid.Column>
                             </Grid.Row>
@@ -145,15 +129,15 @@ class About extends React.Component {
                             <Grid.Row columns={3}>
 
                                 <Grid.Column className='about-segment-3-grid-column'>
-                                    <p>Her family would come together to celebrate the holidays and special events.</p>
+                                    <p>She was the happiest at Christmas parties, Thanksgiving dinners, and birthday gatherings where she can spend time with everyone.</p>
                                 </Grid.Column>
 
                                 <Grid.Column className='about-segment-3-grid-column'>
-                                    <p>She loved catching up, watching movies, eating dinner, and playing Mahjong with everyone.</p>
+                                    <p>She loved catching up, watching movies, eating dinner, and playing Mahjong with everyone. </p>
                                 </Grid.Column>
 
                                 <Grid.Column className='about-segment-3-grid-column'>
-                                    <p>les was always there to be with her family. She would rarely miss an opportunity to spend her time around her loved ones. </p>
+                                    <p>Family gatherings will never be the same without her. Les' presence will forever be missed.</p>
                                 </Grid.Column>
 
                             </Grid.Row>
