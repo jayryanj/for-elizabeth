@@ -11,13 +11,6 @@ class About extends React.Component {
                 <Portrait />
 
                 <Segment className="about-segment-1" style={{ padding: '1em 0em' }}>
-                    {/* DELETE THIS AFTER REMOVING PLACEHOLDER TEXT */}
-                    <Container>
-                        <Segment size='large' raised color='red'>
-                            This page contains placeholder text (in Latin) for visual testing. It will be replaced when the text is available.
-                        </Segment>
-                    </Container>
-
                     <Container>
                         <Divider horizontal>
                             <Header as='h2'className='about-segment-1-header-h1' textAlign='center'>About Her</Header>
@@ -35,15 +28,15 @@ class About extends React.Component {
                                         Early Life
                                     </Header>
                                     <p className='about-early-life'>
-                                        Elizabeth was born in the Philippines on April 27, 1965....
+                                        Elizabeth "Les/Lisa" Jamorabon was born in Marabos, Vintar, Ilocos Norte, Philippines on April 27, 1965 to her parents, Santiago and Estralita. She grew up with one older sister, Josie, and her two younger sisters, Vangie and Genie. In total, she had 3 sisters that she adored. In the Philippines, she attended Malampa Elementary School from grades 1-6. Although she grew up to be quiet woman, Les was a rambunctious child that would mess with her sisters. On October 1st, 1978, her family moved from the Philippines to Honolulu, Hawaii in the neighborhood of Kalihi. At the time, she transferred to Kalakaua Intermediate School and moved on to attend Farrington High School. Les later graduated from Farrington in 1984. 
                                     </p>
                                 </Grid.Column>
                                 <Grid.Column>
                                     <Header as='h4' className='about-segment-1-header-h4'>
-                                        Non deserunt dolore pariatur
+                                        Work
                                     </Header>
-                                    <p>
-                                        Est et veniam ut cillum magna sint ad sit sunt anim labore ad. Mollit incididunt incididunt anim velit ullamco elit veniam in dolore duis aute aute reprehenderit magna. Exercitation amet cillum reprehenderit consectetur magna incididunt reprehenderit adipisicing. Velit sint qui ipsum qui. Excepteur tempor exercitation consequat duis fugiat. Nulla culpa exercitation nulla culpa adipisicing laborum cillum culpa. Enim aute fugiat eiusmod fugiat eiusmod cillum dolor nulla aliqua Lorem est. Sunt sit deserunt do ad reprehenderit quis consectetur. Esse Lorem exercitation excepteur ex dolore nisi est qui ex Lorem non. Sit Lorem laborum nisi nisi dolor sint voluptate adipisicing voluptate. Adipisicing veniam officia magna sint ipsum minim commodo ex. Reprehenderit tempor velit qui minim irure incididunt in aliqua exercitation sunt ut sint. Voluptate do elit consequat magna enim ad deserunt consectetur laborum qui. Ipsum dolor consequat sint nulla eu pariatur sunt dolore nostrud consectetur eiusmod. Enim occaecat dolor do dolore sint tempor eiusmod sint irure id. In nulla veniam occaecat cupidatat excepteur aute ipsum duis est cupidatat sit consequat.
+                                    <p className='about-work'>
+                                        Elizabeth was best known for her hard work in supporting her family. In her senior year of high school (1983), Les began working her first job as a Packer for Dole Cannery. She continued working at Dole Cannery to financially help her parents up until 1992. Afterwards, she worked at Redondo's from 1993 to 1995. In 1995, She quickly picked up a new position as a Cook at the McDonald's restaurant at Moanalua Shopping Center. There, she made many friends and enjoyed her time working among several family members. She eventually got promoted to a trainer. Although it was sometimes exhausting, she enjoyed her job and didn't see herself working anywhere else. She worked very hard and set a precedence, earning a few awards at her job. Although she took an intermediate break to relax, stay home, and take care of her kids, she continued working at McDonald's up until her passing.
                                     </p>
                                 </Grid.Column>
                             </Grid.Row>
@@ -53,12 +46,18 @@ class About extends React.Component {
 
 
                 <Segment className="about-segment-2" style={{ padding: '1em 0em' }}>
-                    <Grid columns={2} stackable className='about-segment-2-grid'>
+                    <Grid columns={3} stackable className='about-segment-2-grid'>
                         <Grid.Row>
                             <Grid.Column>
                                 <Image 
-                                    src={require('../resources/img/IMG_60111(square).jpg')} 
-                                    size='huge'
+                                    src={require('../resources/img/2020-08-31_173711 (square).jpg')} 
+                                    size='large'
+                                    centered
+                                    className='about-segment-2-picture'
+                                />
+                                <Image 
+                                    src={require('../resources/img/20200829-2020-08-29_194724 (square).jpg')} 
+                                    size='large'
                                     centered
                                     className='about-segment-2-picture'
                                 />
@@ -68,14 +67,31 @@ class About extends React.Component {
                                 <Segment className='about-segment-2-segment'>
                                     <Container className='about-segment-2-container-1'>
                                         <p className='about-segment-2-header-1'>
-                                            Laborum aute 
+                                            Love and Kids 
                                         </p>
                                         <p className='about-segment-2-p'>
-                                        Tempor ea magna sunt ut velit ipsum minim magna. Qui incididunt do ullamco et ipsum labore mollit id ullamco anim sit irure dolor. Occaecat eu duis dolor fugiat ullamco duis aliqua quis sit nisi dolore ullamco elit. Reprehenderit nisi ut sunt in veniam in veniam veniam dolor pariatur. Velit ad tempor irure aliquip sint commodo sint labore commodo sint in. Cillum excepteur ullamco culpa mollit aliquip irure. Sint occaecat irure dolor occaecat commodo ipsum mollit consequat voluptate laborum exercitation est. Culpa mollit eiusmod ut eiusmod consequat proident qui eiusmod duis aliquip consequat sit reprehenderit. Magna laboris non esse magna eiusmod ipsum ex et esse veniam amet excepteur voluptate voluptate. Non commodo duis laborum sint anim ea irure laborum id elit in deserunt labore dolore.
+                                            Les met Romy Jamorabon through his cousin, Lisa, whom she worked with at McDonald's. At the time, Romy lived in the Philippines, so they often sent letters to each other. The two eventually formed a romance together. In 1994, Les travelled to the Philippines where she finally met with Romy in-person. On June 20, Les and Romy got married in Laoag, Ilocos Norte, Philippines. Her family traveled to attend and celebrate the wedding. In December of that same year, Romy finally moved from the Philippines to Hawaii so they can be together. On July 20, 1996, Les and Romy had their first son, Kevin. Then on January 2, 1999, they had their second son, Jay. She loved her two boys more than anything in the world. They were everything to her, so she worked hard to ensure that Kevin and Jay grew up happily. She raised Kevin and Jay into a smart, playful little pair of boys. Les and Romy watched as their two boys grew up to be handsome young men. She loved her sons very much, and she was so proud them.
                                         </p>
                                     </Container>
                                 </Segment>
                             </Grid.Column>
+
+                            <Grid.Column>
+                                <Image 
+                                    src={require('../resources/img/Les110a (square).jpg')} 
+                                    size='large'
+                                    centered
+                                    className='about-segment-2-picture'
+                                />
+
+                                <Image 
+                                    src={require('../resources/img/DSC_0246 (square).JPG')} 
+                                    size='large'
+                                    centered
+                                    className='about-segment-2-picture'
+                                />
+                            </Grid.Column>
+
                         </Grid.Row>
                     </Grid>
                 </Segment>
@@ -93,8 +109,8 @@ class About extends React.Component {
                                 </Grid.Column>
 
                                 <Grid.Column textAlign='left'>
-                                    <p>
-                                        Qui incididunt do ullamco et ipsum labore mollit id ullamco anim. Magna laboris non esse magna eiusmod ipsum ex et esse veniam amet excepteur voluptate voluptate. Non commodo duis laborum sint anim ea irure laborum id elit in deserunt labore dolore.
+                                    <p className='about-segment-3-header-description'>
+                                        Les loved her family so much. She was the happiest at Christmas parties, Thanksgiving dinners, and birthday gatherings where she can spend time with everyone.
                                     </p>
                                 </Grid.Column>
                             </Grid.Row>
@@ -103,7 +119,7 @@ class About extends React.Component {
 
                                 <Grid.Column className='about-segment-3-grid-column'>
                                     <Image 
-                                        src={require('../resources/img/2020-08-27_155758 (square).jpg')} 
+                                        src={require('../resources/img/DSC_0373 (wide).JPG')}
                                         fluid
                                         centered
                                     />
@@ -111,7 +127,7 @@ class About extends React.Component {
 
                                 <Grid.Column className='about-segment-3-grid-column'>
                                     <Image 
-                                        src={require('../resources/img/2020-08-28_113813 (square).jpg')} 
+                                        src={require('../resources/img/DSC_0499 (wide).JPG')} 
                                         fluid
                                         centered
                                     />
@@ -119,7 +135,7 @@ class About extends React.Component {
 
                                 <Grid.Column className='about-segment-3-grid-column'>
                                     <Image 
-                                        src={require('../resources/img/20190815-20190815_111721 (square).jpg')} 
+                                        src={require('../resources/img/Family_Portrait_Final (wide).png')} 
                                         fluid
                                         centered
                                     />
@@ -129,15 +145,15 @@ class About extends React.Component {
                             <Grid.Row columns={3}>
 
                                 <Grid.Column className='about-segment-3-grid-column'>
-                                    <p>mollit consequat voluptate laborum exercitation est. Velit ad tempor irure aliquip sint commodo sint labore</p>
+                                    <p>Her family would come together to celebrate the holidays and special events.</p>
                                 </Grid.Column>
 
                                 <Grid.Column className='about-segment-3-grid-column'>
-                                    <p>mollit consequat voluptate laborum exercitation est. Non commodo duis laborum sint anim ea irure laborum id elit in deserunt labore dolore.</p>
+                                    <p>She loved catching up, watching movies, eating dinner, and playing Mahjong with everyone.</p>
                                 </Grid.Column>
 
                                 <Grid.Column className='about-segment-3-grid-column'>
-                                    <p>mollit consequat voluptate laborum exercitation est.</p>
+                                    <p>les was always there to be with her family. She would rarely miss an opportunity to spend her time around her loved ones. </p>
                                 </Grid.Column>
 
                             </Grid.Row>
@@ -148,16 +164,24 @@ class About extends React.Component {
 
 
                 <Segment className="about-segment-4" style={{ minHeight: 600, padding: '1em 0em' }}>
-                        <Container>
-                            <p className='about-segment-4-header' textAlign='center'>
-                                Notes from Loved-Ones
-                            </p>
-                            <p className='about-segment-4-description'>
-                                These are some notes written about Elizabeth from her loved-ones. 
-                            </p>
-                        </Container>
 
-                        <FamilyNotes />
+                    {/* DELETE THIS AFTER REMOVING PLACEHOLDER TEXT */}
+                    <Container>
+                        <Segment size='large' raised color='red'>
+                            This section contains placeholder text (in Latin) for visual testing. It will be replaced when the text is available.
+                        </Segment>
+                    </Container>
+
+                    <Container>
+                        <p className='about-segment-4-header' textAlign='center'>
+                            Notes from Loved-Ones
+                        </p>
+                        <p className='about-segment-4-description'>
+                            These are some notes written about Elizabeth from her loved-ones. 
+                        </p>
+                    </Container>
+                    <FamilyNotes />
+
                 </Segment>
 
             </div>

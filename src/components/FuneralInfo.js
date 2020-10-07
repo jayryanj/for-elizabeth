@@ -14,13 +14,13 @@ class FuneralInfo extends React.Component {
             <Container>
                 <Message info className='funeral-info-message' floating>
 
-                    <Message.Header>Funeral Video Information</Message.Header>
+                    <Message.Header>Funeral Information</Message.Header>
                     <Container className='funeral-info-container'>
                         <p >
-                            On October 3rd, 2020, Elizabeth's beloved family came together at her funeral service to lay her to rest.
+                            Please join us in honoring the memory of Elizabeth Domingsil Jamorabon on Saturday, October 3rd @ 10:00am
                         </p>
                         <p>
-                            The livestreamed video of the service can be accessed using the button below.
+                            Due to the COVID-19 pandemic restrictions, the funeral service will only include 10 family members. However, the funeral will be streamed at the button below.
                         </p>
 
                         <Divider className='funeral-info-divider' />

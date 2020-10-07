@@ -17,7 +17,7 @@ class Landing extends React.Component {
                 <Portrait />
 
                 <Segment className="landing-main" style={{ padding: '1em 0em' }}>
-
+                    <FuneralInfo />
 
                     <Container className='landing-main-header-container'>
                         <p className="landing-main-header">
@@ -26,7 +26,6 @@ class Landing extends React.Component {
                     </Container>
 
                     <Container className="landing-main-description">
-
 
                         <p>
                             It broke all of our hearts when the news broke out of Elizabeth's passing on August 22, 2020. She was a caring mom, wife, and daughter that loved her family more than anything in the world. She was a kindhearted spirit that left her mark on all of her loved-ones.
@@ -48,8 +47,6 @@ class Landing extends React.Component {
                             <Image src={require('../resources/img/IMG_60111(square).jpg')} />
                         </Image.Group>
                     </Visibility>
-
-                    <FuneralInfo />
  
                 </Segment>
             </div>
