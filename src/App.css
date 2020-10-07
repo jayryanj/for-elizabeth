@@ -205,7 +205,7 @@ margin-top: 4% !important;
   margin-top: 2% !important;
 }
 
-.about-early-life {
+.about-early-life, .about-work {
   font-size: 20px;
 }
 
@@ -250,7 +250,11 @@ margin-top: 4% !important;
 
 .about-segment-3-header {
   font-family: Montserrat-regular !important;
-  font-size: 40px !important;
+  font-size: 50px !important;
+}
+
+.about-segment-3-grid-column, .about-segment-3-header-description {
+  font-size: 18px !important;
 }
 
 .about-segment-3-grid-row-2 {
