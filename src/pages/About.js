@@ -33,7 +33,7 @@ class About extends React.Component {
                                 </Grid.Column>
                                 <Grid.Column>
                                     <Header as='h4' className='about-segment-1-header-h4'>
-                                        Work
+                                        Hard Worker
                                     </Header>
                                     <p className='about-work'>
                                         Elizabeth was best known for her hard work in supporting her family. In her senior year of high school (1983), Les began working her first job as a Packer for Dole Cannery. She continued working at Dole Cannery to financially help her parents up until 1992. Afterwards, she worked at Redondo's from 1993 to 1995. In 1995, She quickly picked up a new position as a Cook at the McDonald's restaurant at Moanalua Shopping Center. There, she made many friends and enjoyed her time working among several family members. She eventually got promoted to a trainer. Although it was sometimes exhausting, she enjoyed her job and didn't see herself working anywhere else. She worked very hard and set a precedence, earning a few awards at her job. Although she took an intermediate break to relax, stay home, and take care of her kids, she continued working at McDonald's up until her passing.
